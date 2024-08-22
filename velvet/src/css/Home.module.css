@@ -1,4 +1,89 @@
-.section{
+.section {
     display: flex;
-    width: 95%;
+    width: 100%;
+    position: relative;
+}
+
+.section div {
+    width: 50%;
+}
+
+.img {
+    background-image: url("../img/vestido.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-fundo);
+    position: absolute;
+    bottom: 2em;
+    font-size: 60px;
+    z-index: 1;
+    left: 2.5%;
+}
+
+.frase h3 {
+    margin-left: 3em;
+}
+
+.contador {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-fundo);
+    display: flex;
+    position: relative;
+}
+
+.contador .containerFrase{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerFrase{
+    justify-content: center;
+    margin-left: 4em;
+}
+
+.containerFrase h2{
+    font-size: 40px;
+}
+
+.containerFrase h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 6.5em;
+}
+
+.containerFrase p{
+    font-size: 14px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 3em;
+    right: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    width: 250px;
+    height: 80px;
+    font-size: 16px;
+    background-color: var(--cor-fundo);
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.btn button:hover{
+    width: 270px;
+    height: 85px;
 }

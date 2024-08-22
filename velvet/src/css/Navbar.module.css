@@ -4,7 +4,8 @@
     height: 7vh;
     position: fixed;
     top: 0;
-    border-bottom: 1px solid var(--cor-detalhes);
+    z-index: 10;
+    background-color: var(--cor-fundo);
 }
 
 .header nav{

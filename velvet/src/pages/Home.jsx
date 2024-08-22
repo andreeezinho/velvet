@@ -1,18 +1,25 @@
 import styles from "../css/Home.module.css";
-
-import img from "../img/espera.svg";
-import Contador from "../components/Contador.jsx";
+import Menu from "../components/Menu.jsx";
 
 function Home() {
     return(
         <div className={styles.section}>
-            <div className={styles.img}>
-                <img src={img} alt="Imagem de espera" />
+            <div className={styles.frase}>
+                <h2>ROUPAS</h2>
+                <h3>VELVET</h3>
             </div>
+
+            <div className={styles.img}></div>
+
             <div className={styles.contador}>
-                <Contador />
-                <h2>Nosso site está quase pronto!</h2>
-                <p>Aguarde nossa inauguração para adquirir produtos da melhor qualidade</p>
+                <div className={styles.containerFrase}>
+                    <h2>Vista-se de confiança,</h2>
+                    <h3>vista-se de nós.</h3>
+                    
+                </div>
+                <div className={styles.btn}>
+                    <button>Navegue pelo nosso site</button>
+                </div>
             </div>
         </div>
     );

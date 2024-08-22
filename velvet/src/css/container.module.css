@@ -1,5 +1,5 @@
 .container{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 7vh;
     display: flex;
@@ -7,6 +7,6 @@
 }
 
 .min-height{
-    min-height: 93vh;
-    background-color: aqua;
+    min-height: 80vh;
+    background-color: var(--cor-secundaria)
 }

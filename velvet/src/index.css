@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Prata&display=swap');
 :root{
   --cor-fundo: #f6f4ff; 
-  --cor-secundaria: #53657b;
+  --cor-secundaria: #000000;
   --cor-detalhes: #700202;
   --fonte: "Prata";
 }
