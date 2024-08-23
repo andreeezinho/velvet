@@ -26,6 +26,10 @@
     font-size: 26px;
 }
 
+.logo h1:hover{
+    cursor: pointer;
+}
+
 .logo h1 span{
     font-size: 40px;
     font-weight: lighter;
@@ -77,6 +81,10 @@ menu ul li{
 menu ul li a{
     text-decoration: none;
     color: var(--cor-detalhes);
+}
+
+menu ul li a:hover{
+    text-decoration: underline;
 }
 
 .barrinha{
