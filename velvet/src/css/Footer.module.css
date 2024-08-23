@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     width: 100%;
-    min-height: 30vh;
+    min-height: 10vh;
     background-color: var(--cor-secundaria);
 }
 
