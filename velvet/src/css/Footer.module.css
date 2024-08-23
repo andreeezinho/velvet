@@ -1,0 +1,58 @@
+.footer{
+    display: flex;
+    width: 100%;
+    min-height: 30vh;
+    background-color: var(--cor-secundaria);
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: var(--cor-detalhes);
+    font-size: 26px;
+    font-family: var(--fonte-titulo);
+}
+
+.logo h1:hover{
+    cursor: pointer;
+}
+
+.logo h1 span{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.tabela ul{
+    list-style: none;
+    margin: 0 3em 0 3em;
+}
+
+.tabela ul p{
+    color: var(--cor-detalhes);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.tabela ul li{
+    margin-bottom: 5px;
+    color: var(--cor-fundo);
+    font-size: 18px;
+}

@@ -5,7 +5,7 @@
 .section {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     position: relative;
 }
 
@@ -29,6 +29,13 @@
     left: 2.5%;
 }
 
+.frase h2, h3{
+    font-family: var(--fonte-titulo);
+}
+
+.frase h3{
+    margin-left: 4em;
+}
 
 .contador {
     background-color: var(--cor-secundaria);
@@ -57,16 +64,14 @@
 
 .containerFrase h2{
     font-size: 40px;
+    font-family: var(--fonte-titulo);
 }
 
 .containerFrase h3{
     font-size: 30px;
     margin-bottom: 20px;
     margin-left: 6.5em;
-}
-
-.containerFrase p{
-    font-size: 14px;
+    font-family: var(--fonte-titulo);
 }
 
 .btn{
@@ -91,7 +96,10 @@
 
 .btn button:hover{
     width: 270px;
-    height: 85px;
+    background-color: transparent;
+    color: var(--cor-fundo);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .containerCard{
@@ -107,7 +115,7 @@
 
 .card{
     background-color: var(--cor-fundo);
-    height: 40vh;
+    height: auto;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
@@ -138,6 +146,7 @@
     font-size: 16px;
     color: var(--cor-detalhes);
     margin-top: 2em;
+    margin-bottom: 90px;
 }
 
 .cardTitulo button{
@@ -155,5 +164,10 @@
 }
 
 .cardTitulo button:hover{
+    background-color: transparent;
+    color: var(--cor-detalhes);
+    border-bottom: 1px solid var(--cor-detalhes);
+    border-radius: 5px;
     padding: 0.8em 4em;
+    cursor: pointer;
 }

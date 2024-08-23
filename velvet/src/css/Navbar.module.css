@@ -24,6 +24,7 @@
 .logo h1{
     color: var(--cor-detalhes);
     font-size: 26px;
+    font-family: var(--fonte-titulo);
 }
 
 .logo h1:hover{
